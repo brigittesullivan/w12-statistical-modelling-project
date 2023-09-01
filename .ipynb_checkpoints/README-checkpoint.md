@@ -90,7 +90,7 @@ Here are the results of the statistical modelling performed:
 
 * The adjusted R-quare value in the final model(output B) after performing backward selection was **0.192**. 
     * Meaning that 19.2% of the variance in the dependent variable can be explained by the independent variables. 
-    * This is considered a fairly weak relationship, and the model's ability to predict the number of slots is not is poor. 
+    * This is considered a fairly weak relationship, and the model's ability to accurately predict the number of slots is poor. 
 * In model output A (the model previous to the final model "B"), the independent variable Park is technically not statistiscally significant with a pvalue of 0.062 (but very close to 0.05 threshold). When Garden is removed from Model B, the pvalue for Park drops and Park becomes a statistically significant.
 * **Historic and Protected sites** is the outdoor space category that makes the largest contribution to the model with the highest coefficient value, followed by **monuments**. Both categories have a P-value of 0.000 indicating high significance.
 * Conclusion: 
@@ -102,7 +102,8 @@ Here are the results of the statistical modelling performed:
     * although my original thought that parks would be the strongest indicator the model found that there are other outdoor spaces that better predict the number of slots than Parks (like Historic Sites, Monuments, Farms)
      * In model output B, the very small **f-statistic value of 6.18e-35** indicates we can still reject the null hypothesis that there is no relationship between number of bike slots and number of outdoor spaces.
      * In other (slightly less accurate, but more intuitive words): ***there is a relationship between the number of bike slots and the number of outdoor POI's in Montréal***
-See images Model Output A and Model Output B in images folder. 
+
+</br>Note: images for Model Output A and Model Output B can be found in images folder if they are not displayed below.  </br>
 
 ![model output b](https://github.com/brigittesullivan/w12-statistical-modelling-project/blob/643beb8d3caf8ecdb4a7b06a1176b9e15479a99b/images/Model%20Output%20B%20(final%20model).png)</br>
 
